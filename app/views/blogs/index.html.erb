@@ -1,0 +1,27 @@
+<p style="color: green"><%= notice %></p>
+
+
+<h1>Our blogs</h1>
+  <table class="table table-bordered table-hover">
+   <thread>
+    <tr class="table-primary">
+        <th>First name</th>
+        <th>Last name</th>
+        <th>email</th>
+        <th>title</th>
+        <th clospan="3"></th>
+    </tr>
+   </thread>
+     <tbody>       
+      <% @blogs.each do |blog| %>
+        <tr> 
+          <td class="table-dark"><%= blog.first_name %></td>
+          <td class="table-dark"><%= blog.last_name %></td>
+          <td class="table-dark"><%= blog.email %></td>
+          <td class="table-dark"><%= blog.title %></td> 
+          <td class="table-dark"><%= link_to "show this blog", blog %></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>           
+<%= link_to "New blog", new_blog_path, class:"btn btn-primary" %> 
