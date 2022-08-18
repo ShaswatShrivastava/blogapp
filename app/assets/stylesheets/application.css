@@ -14,24 +14,96 @@
  *= require_self
  */
 
- .hometext {
+ .hometext1 {
     font-weight: 500;
-    font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+    font-family: Recoleta, Georgia, "Times New Roman", Times, serif;
     line-height: 52px;
     color: #016087;
     max-width: 90%;
-    font-size: 30px;
+    font-size: 43px;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 50px;
  }
-
+ 
+ .hometext2 {
+    font-weight: 500;
+    font-family: Recoleta, Georgia, "Times New Roman", Times, serif;
+    line-height: 30px;
+    color: #0a0c0c;
+    max-width: 90%;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 1em;
+ 
+ }
+ 
+ 
  .homepage {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    
+  
+ 
+ 
+ }
+ 
+ .background {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(243, 243, 255, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-image:  url('https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+ 
+ 
+ .lpc-button {
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0;
+    font-weight: 700;
     text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    background: #2497ff;
+    border-color: #2497ff;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid;
+    border-bottom-width: 2px;
+    margin: 0 auto;
+    padding: 0.5em 1.5em 0.55em;
+    transition: opacity 0.15s ease-out;
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: 40px;
+    margin-left: 520px;
+ }
+ 
+ 
+ .design {
+ 
+    color: white;
+    border-color: #b7266a;
+    background: #d52c82;
+    border-radius: 6px;
+    box-shadow: none;
  }
 
-.background {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,243,255,1) 35%, rgba(0,212,255,1) 100%);
-}
+ .form-width {
+    width: max-content;
+ }
+
+ .footer-padding {
+    padding-top: 15px;
+ }

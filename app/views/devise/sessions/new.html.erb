@@ -15,12 +15,12 @@
   
   <div class="field form-check form-outline mb-4">
     <%= f.label :email %><br/>
-    <%= f.email_field :email, autofocus: true, placeholder:"email", autocomplete: "email", class:"form-control form-control-lg" %>
+    <%= f.email_field :email, autofocus: true, placeholder:"email", autocomplete: "email", class:"form-control form-control-lg form-width" %>
   </div>
 
   <div class="field form-check form-outline mb-4">
     <%= f.label :password %><br /> 
-    <%= f.password_field :password, placeholder:"password", autocomplete: "current-password", class:"form-control form-control-lg"%>
+    <%= f.password_field :password, placeholder:"password", autocomplete: "current-password", class:"form-control form-control-lg form-width"%>
   </div>
 
   <% if devise_mapping.rememberable? %> 

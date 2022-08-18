@@ -1,6 +1,12 @@
 <%= stylesheet_link_tag 'application.css' %>
-<div class="homepage">
-<text class="hometext">Create a blog and share your voice in minute.<br>
-BlogApp makes it easy for you to start your own blog. <br>
-Signup for free to start sharing your ideas.</text>
-<div> 
+
+
+
+<div class="homepage background">
+<h1 class="hometext1">Create a blog and share<br> your voice in minute.<br> </h1>
+<h1 class="hometext2">BlogApp makes it easy for you to start your own blog.<br>
+Signup for free to start sharing your ideas.</h1>
+
+<%= link_to 'Create Your Blog', new_user_registration_path, class:"lpc-button design" %>
+
+</div>
