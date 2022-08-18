@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+ .hometext {
+    font-weight: 500;
+    font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+    line-height: 52px;
+    color: #016087;
+    max-width: 90%;
+    font-size: 30px;
+ }
+
+ .homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+ }
+
+.background {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,243,255,1) 35%, rgba(0,212,255,1) 100%);
+}
