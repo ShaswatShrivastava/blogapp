@@ -51,7 +51,9 @@ gem "bootsnap", require: false
 # For user management devise gem is used
 gem "devise", "~> 4.8", ">= 4.8.1" 
 
-# Adding webpacker
+# Adding simple-form
+gem "simple_form"
+
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debuggingS_rails_applications.html#debugging-with-the-debug-gem
